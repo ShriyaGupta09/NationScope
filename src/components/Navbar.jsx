@@ -43,15 +43,6 @@ const Navbar = ({setCategory}) => {
                     </ul>
                 </div>
             </div>
-
-            {/* Customizing placeholder color */}
-            <style>
-                {`
-                    .form-control::placeholder {
-                        color: grey;  /* Change placeholder text color to grey */
-                    }
-                `}
-            </style>
         </nav>
     )
 }

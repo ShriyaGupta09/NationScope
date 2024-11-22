@@ -41,18 +41,6 @@ const Navbar = ({setCategory}) => {
                             <div className="nav-link" onClick={() => setCategory("Politics")} href="#">Politics</div>
                         </li>
                     </ul>
-                    <form className="d-flex ms-auto" role="search">
-                        <input
-                            className="mr-sm-2"
-                            type="text"
-                            placeholder="Search here..."
-                            aria-label="Search"
-                            style={{ color: 'white', backgroundColor: 'black' }} // For styling the input text
-                        />
-                        <button className="btn btn-outline-secondary" type="submit">
-                            Search
-                        </button>
-                    </form>
                 </div>
             </div>
 

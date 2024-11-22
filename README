@@ -1,0 +1,68 @@
+# NationScope - The News App 🌏📰  
+
+**NationScope** is a responsive and interactive news application that delivers real-time news updates from across the globe. Built using **React.js**, **Bootstrap**, and **NewsAPI**, this app provides a clean and intuitive interface for users to stay informed.
+
+## Features 🚀  
+- Real-time news updates fetched using **NewsAPI**.  
+- Responsive design built with **Bootstrap** for seamless usability on all devices.  
+- Dynamic categories and topics to explore global and local news.  
+
+---
+
+## Setup Instructions 🔧  
+
+### Option 1: Full Setup (Manual)  
+1. **Install React and Vite Environment:**  
+   - Install [Node.js](https://nodejs.org/).  
+   - Run the following commands:  
+     ```bash
+     npm create vite@latest NationScope --template react
+     cd NationScope
+     npm install
+     ```
+
+2. **Clone the Repository:**  
+   ```bash
+   git clone <repo-link>
+   cd NationScope
+   ```
+
+3. **Start the Development Server:**  
+   ```bash
+   npm run dev
+   ```
+
+### Option 2: Quick Setup (Using `node_modules`)  
+1. **Download the `node_modules` Folder** provided in the package or the repository.  
+2. Place the `node_modules` folder in the project root directory.  
+3. Run the app:  
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Usage 📱  
+1. Launch the app in your browser at [http://localhost:3000](http://localhost:3000).  
+2. Explore categories, view headlines, and dive into the latest news stories.  
+
+---
+
+## Technologies Used 🛠️  
+- **Frontend:** React.js, Bootstrap.  
+- **API:** NewsAPI for real-time news content.  
+- **Bundler:** Vite for fast builds and HMR (Hot Module Replacement).  
+
+---
+
+## Contributing 🤝  
+Feel free to fork the repository and submit pull requests. Contributions are welcome!  
+
+---
+
+## License 📄  
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+### 🌟 Stay updated with NationScope – your gateway to global news! 🌟  
